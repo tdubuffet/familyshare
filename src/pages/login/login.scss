@@ -1,12 +1,12 @@
 page-login {
 
   ion-content{
-    background: url('/assets/imgs/login-wallpaper.jpg');
+    background: url('/assets/imgs/wallpaper_home.jpg');
     background-position: 25% 0%;
     background-size: cover;
 
     .fixed-content{
-      background-color: rgba(0,0,0,0.7)
+      background-color: rgba(0,0,0,0.5)
     }
 
     &.content{
@@ -19,19 +19,19 @@ page-login {
 
       button.facebook{
         margin-top: 2rem;
-        background: rgba(#3B5998, 0.8);
+        background: rgba(#3B5998, 0.7);
       }
 
       button.google{
         margin-top: 6rem;
-        background: rgba(#D62D20, 0.8);
+        background: rgba(#D62D20, 0.7);
       }
     }
   }
 
   ion-footer{
     text-align: center;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
     .copyright{
       padding: 15px 0;
       color: white;
