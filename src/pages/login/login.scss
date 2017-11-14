@@ -1,0 +1,41 @@
+page-login {
+
+  ion-content{
+    background: url('/assets/imgs/login-wallpaper.jpg');
+    background-position: 25% 0%;
+    background-size: cover;
+
+    .fixed-content{
+      background-color: rgba(0,0,0,0.7)
+    }
+
+    &.content{
+      color: white;
+      text-align: center;
+
+      h1:first-child{
+        margin-top: 6rem;
+      }
+
+      button.facebook{
+        margin-top: 2rem;
+        background: rgba(#3B5998, 0.8);
+      }
+
+      button.google{
+        margin-top: 6rem;
+        background: rgba(#D62D20, 0.8);
+      }
+    }
+  }
+
+  ion-footer{
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    .copyright{
+      padding: 15px 0;
+      color: white;
+      font-size: 0.7em;
+    }
+  }
+}
